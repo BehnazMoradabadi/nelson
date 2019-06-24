@@ -1,0 +1,8 @@
+attrs
+beautifulsoup4
+elasticsearch
+flake8
+click
+flask
+pytest
+mock

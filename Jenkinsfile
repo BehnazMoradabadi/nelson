@@ -14,8 +14,8 @@ node {
         file(name: "FILE", description: "Choose a file to upload")
     }
 
-    echo $env.BRANCH_NAME
-    echo $currentBuild.result
-    echo $params.PERSON
+    echo ${env.BRANCH_NAME}
+    echo ${currentBuild.result}
+    echo ${params.PERSON}
 
 }
